@@ -5,8 +5,8 @@ listadoRecetas =[{
     "pasos" :   "calentar una sarte, echar la carne y condimentar al gusto"
 }]
 
-
-def guardarReceta (nombre,ingredientes,pasos):
+# creo la funcion para guardar 
+def guardarReceta (nombre,ingredientes,pasos): # le paso varios parametros
     guardar ={
         "nombre" : nombre,
         "ingredientes" : ingredientes,
@@ -52,7 +52,8 @@ def agregarRecetas():
     # receta={
     #     "nombre" : nombreReceta,
     #     "ingredientes" : ingredientes,
-    #     "pasos" : pasos
+    #     "pasos" : pasos,
+    #     " nose" : {}
     # }
 
     guardarReceta(nombreReceta,ingredientes,pasos)
@@ -121,10 +122,10 @@ while True:
         mostrarReceta()
     elif opcion == "3":
         eliminarReceta()
-
-        
+           
     elif opcion == "4":
         print("Saliendo...")
         break
+
     else:
         print("❌ Opción no válida.")
