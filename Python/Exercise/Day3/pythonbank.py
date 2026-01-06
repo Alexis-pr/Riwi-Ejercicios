@@ -7,4 +7,3 @@ Como asesor financiero, quiero una función evaluar_credito(ingresos, edad) que:
  """
 
 
-a

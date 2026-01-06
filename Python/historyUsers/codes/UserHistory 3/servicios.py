@@ -1,5 +1,4 @@
 Inventario =[]
-
 def agregarProducto():
 
     while True: # Permite que cada uno de los productos se pidan nuevamente
@@ -61,6 +60,8 @@ def mostrarInventario():
         for i,producto in enumerate(Inventario, start = 1):#enumerate recorre una lista y me devuelve su key-value -- :.2findica que solo muestre 2 valores despues del punto
             print(f"- Id - {i} | El nombre del producto es: {producto["nombre"]} | El precio es: {producto["precio"]:.2f} | la cantidad es: {producto['cantidad'] }")
     print("\n")
+
+    
 def buscar():
     
     try:
